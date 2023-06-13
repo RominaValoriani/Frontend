@@ -1,0 +1,41 @@
+.row{
+    padding: 30px;
+}
+div{
+    background-color: var(--claro);
+}
+img{
+    width: 7rem;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 .2rem .4rem var(--negro);
+}
+#nombre{
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-shadow: 0 .1rem .2rem var(--blue1);
+}
+#titulo{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 0 .1rem 1.2rem var(--shadow);
+}
+p{
+    font-size: 1rem;
+}
+@media (max-width: 575px){
+    #foto-perfil{
+        display: flex;
+        margin: auto;
+    }
+    #nombre{
+        letter-spacing: 4px;
+    }
+    #nombre, #titulo{
+        text-align: center;
+    }
+}

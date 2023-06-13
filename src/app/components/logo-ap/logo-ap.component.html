@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/argentina-programa.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/romina-valoriani/" target="_blank" class="social">
+                <img src="../../../assets/linkedin.svg" alt="Linkedin" id="linkedin">
+            </a>
+            <a href="https://github.com/RominaValoriani" target="_blank" class="social">
+                <img src="../../../assets/github.png" alt="github" id="github">
+            </a>
+            <a href="https://discord.gg/P3HURGnR" target="_blank" class="social">
+                <img src="../../../assets/discord.jpg" alt="discord" id="discord">
+            </a>
+            <button type="button" class="btn btn-outline-primary" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+            <button type="button" class="btn btn-outline-primary" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+</div>

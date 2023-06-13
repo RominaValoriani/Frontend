@@ -1,0 +1,13 @@
+.row{
+    background-color: var(--claro);
+    padding: 20px;
+}
+footer{
+    color: var(--shadow);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 0 .1rem .1rem var(--negro);
+}

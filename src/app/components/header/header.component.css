@@ -1,0 +1,8 @@
+div{
+    background-color: var(--claro);
+    padding: 30px;
+}
+app-social{
+    float: right;
+    margin-top: 25px;
+}

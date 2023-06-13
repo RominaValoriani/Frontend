@@ -1,0 +1,13 @@
+:root{
+    --claro: #D1D1D1;
+    --negro: #010c12;
+    --blue1: #1181C8;
+    --blue2: #0C6DAB;
+    --shadow: #FD7E14;
+    --orange: #DFA87A;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+*{  
+    font-family: 'Raleway', 'century gothic', sans-serif;
+    box-sizing: border-box;
+}
