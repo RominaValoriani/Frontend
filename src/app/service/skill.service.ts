@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class SkillService {
-    URL = environment.URL + '/skill/';
+    URL = environment.URL + 'skill/';
 
 
   constructor(private httpClient: HttpClient) { }

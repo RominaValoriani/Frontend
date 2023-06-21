@@ -1,8 +1,7 @@
 .row{
-    padding: 30px;
-}
-div{
-    background-color: var(--claro);
+    background-color: var(--orange);
+    padding: 60px;
+    box-shadow: 0 0 1.5rem var(--shadow) inset;
 }
 img{
     width: 7rem;
@@ -26,6 +25,13 @@ h2{
 }
 p{
     font-size: 1rem;
+}
+button{
+    margin-bottom: 1rem;
+}
+button:hover{
+    box-shadow: 0 .1rem .5rem var(--claro); 
+    /* x y blur color */
 }
 @media (max-width: 575px){
     #foto-perfil{
