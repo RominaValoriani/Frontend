@@ -1,7 +1,7 @@
 .row{
-    background-color: var(--orange);
+    background-color: var(--claro);
     padding: 60px;
-    box-shadow: 0 0 1.5rem var(--shadow) inset;
+    box-shadow: 0 0 1.5rem var(--negro) inset;
 }
 img{
     width: 7rem;
