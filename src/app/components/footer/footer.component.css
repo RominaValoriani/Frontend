@@ -3,11 +3,10 @@
     padding: 20px;
 }
 footer{
-    color: var(--shadow);
+    color: var(--blue1);
     font-size: 1rem;
     letter-spacing: 0.1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    text-shadow: 0 .1rem .1rem var(--negro);
 }

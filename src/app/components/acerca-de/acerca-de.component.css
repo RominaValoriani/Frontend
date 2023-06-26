@@ -1,7 +1,8 @@
 .row{
+    padding: 30px;
+}
+div{
     background-color: var(--claro);
-    padding: 60px;
-    box-shadow: 0 0 1.5rem var(--negro) inset;
 }
 img{
     width: 7rem;
