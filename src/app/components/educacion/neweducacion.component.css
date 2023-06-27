@@ -8,7 +8,6 @@ button{
 }
 button:hover{
     box-shadow: 0 .1rem .5rem var(--claro); 
-    /* x y blur color */
 }
 input{
     margin-bottom: 1rem;

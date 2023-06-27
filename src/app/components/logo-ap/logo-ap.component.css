@@ -22,7 +22,6 @@ img{
 img:hover{
     box-shadow: 0 .1rem .5rem var(--shadow); 
     opacity: 1;
-    /* x y blur color */
 }
 .btn-outline-primary {
     margin: 15px;
