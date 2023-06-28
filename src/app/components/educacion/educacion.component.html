@@ -9,8 +9,7 @@
         <table class="table">
             <tbody>
                 <tr *ngFor="let Educacion of educacion">
-                    <td><h3>{{Educacion.nombreE}}</h3>
-                    </td>
+                    <td><h3>{{Educacion.nombreE}}</h3></td>
                     <td>{{Educacion.descripcionE}}</td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
