@@ -44,7 +44,7 @@ export class EditAcercaDeComponent implements OnInit{
           this.router.navigate(['']);
         }, 
         error: err => {
-          alert("Error al modificar la educacion");
+          alert("Error al modificar la persona");
           this.router.navigate(['']);
         }
       });

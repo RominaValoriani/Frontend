@@ -3,11 +3,18 @@
     padding: 20px;
 }
 footer{
-    color: var(--blue2);
-    font-size: 1rem;
+    color: var(--negro);    
+}
+footer, a{
+    font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+@media (max-width: 575px){
+    footer, a{
+        font-size: 0.8rem;
+    }
 }

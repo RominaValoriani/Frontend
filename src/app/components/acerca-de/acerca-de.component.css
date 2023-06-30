@@ -10,18 +10,14 @@ img{
     box-shadow: 0 1px 7px var(--negro);
 }
 #nombre{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
-    color: var(--shadow);
+    color: var(--blue2);
+    letter-spacing: 1px;
 }
 #titulo{
     font-size: 1.2rem;
     font-weight: 500;
-}
-h2{
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-shadow: 0 .1rem 1.2rem var(--shadow);
 }
 button{
     margin-bottom: 1rem;
@@ -36,5 +32,11 @@ button:hover{
     }
     #nombre, #titulo{
         text-align: center;
+    }
+    #nombre{
+        font-size: 1.3rem;
+    }
+    img{
+        width: 3rem;
     }
 }

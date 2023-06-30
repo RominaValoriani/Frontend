@@ -5,6 +5,9 @@
 }
 .redes{
     margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #logoAP{
     width: 6rem;
@@ -23,6 +26,14 @@ img:hover{
     box-shadow: 0 .1rem .5rem var(--shadow); 
     opacity: 1;
 }
-.btn-outline-primary {
+.btn-primary {
     margin: 15px;
+}
+@media (max-width: 575px){
+    #logoAP{
+        width: 3rem;
+    }
+    img{
+        width: 1.8rem;
+    }
 }

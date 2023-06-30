@@ -11,3 +11,16 @@
     font-family: 'Raleway', 'century gothic', sans-serif;
     box-sizing: border-box;
 }
+h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-shadow: 0 .1rem 1.2rem var(--shadow);
+}
+@media (max-width: 575px){
+    .btn{
+        --bs-btn-font-size: 0.7rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+}

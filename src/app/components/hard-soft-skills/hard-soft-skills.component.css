@@ -1,14 +1,13 @@
-div{
+.row{
     background-color: var(--claro);
     padding: 30px;
 }
-h2{
-    font-size: 1.7rem;
-    font-weight: 600;
-    text-shadow: 0 .1rem 1.2rem var(--shadow);
-}
 .circulo{
     display: flex;
-    flex-direction: column;
     align-items: center;
+}
+@media (min-width: 576px){
+    .circulo{
+        flex-direction: column;
+    }
 }
