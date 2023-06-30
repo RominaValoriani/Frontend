@@ -1,12 +1,10 @@
 .row{
-    background-color: var(--claro);
+    background-color: var(--blue1);
     padding: 20px;
 }
-footer{
-    color: var(--negro);    
-}
 footer, a{
-    font-size: 1.2rem;
+    color: var(--claro); 
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
     display: flex;
